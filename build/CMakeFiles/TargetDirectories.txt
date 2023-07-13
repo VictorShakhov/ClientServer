@@ -1,0 +1,11 @@
+/home/victor/C++/ClientServer/build/CMakeFiles/edit_cache.dir
+/home/victor/C++/ClientServer/build/CMakeFiles/rebuild_cache.dir
+/home/victor/C++/ClientServer/build/MOYFNetworking/CMakeFiles/MOYFNetworking.dir
+/home/victor/C++/ClientServer/build/MOYFNetworking/CMakeFiles/edit_cache.dir
+/home/victor/C++/ClientServer/build/MOYFNetworking/CMakeFiles/rebuild_cache.dir
+/home/victor/C++/ClientServer/build/MOYFClient/CMakeFiles/MOYFClient.dir
+/home/victor/C++/ClientServer/build/MOYFClient/CMakeFiles/edit_cache.dir
+/home/victor/C++/ClientServer/build/MOYFClient/CMakeFiles/rebuild_cache.dir
+/home/victor/C++/ClientServer/build/MOYFServer/CMakeFiles/MOYFServer.dir
+/home/victor/C++/ClientServer/build/MOYFServer/CMakeFiles/edit_cache.dir
+/home/victor/C++/ClientServer/build/MOYFServer/CMakeFiles/rebuild_cache.dir

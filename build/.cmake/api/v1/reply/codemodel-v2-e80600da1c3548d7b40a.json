@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "MOYFNetworking",
+					"jsonFile" : "directory-MOYFNetworking-Debug-61bc3fc9fc43e9bac7de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "MOYFNetworking",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "MOYFClient",
+					"jsonFile" : "directory-MOYFClient-Debug-46af2fd4432373e5af7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MOYFClient",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "MOYFServer",
+					"jsonFile" : "directory-MOYFServer-Debug-9a679b27cf1654629577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "MOYFServer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "MOYFClient",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "MOYFNetworking",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "MOYFServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "MOYFClient::@2718abcee588f14389b7",
+					"jsonFile" : "target-MOYFClient-Debug-f6a5510d2728e509019e.json",
+					"name" : "MOYFClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MOYFNetworking::@857458d9b556b18989cd",
+					"jsonFile" : "target-MOYFNetworking-Debug-ccd8cfc86e74eee95449.json",
+					"name" : "MOYFNetworking",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MOYFServer::@45aef3df7bec22c255aa",
+					"jsonFile" : "target-MOYFServer-Debug-5f38c48ceda470617a4a.json",
+					"name" : "MOYFServer",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/victor/C++/ClientServer/build",
+		"source" : "/home/victor/C++/ClientServer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
