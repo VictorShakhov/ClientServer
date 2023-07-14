@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/victor/C++/ClientServer/build",
-  "command": "/bin/clang++-12 -I/home/victor/C++/ClientServer/MOYFNetworking/include -g -std=gnu++20 -o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/Base.cpp.o -c /home/victor/C++/ClientServer/MOYFNetworking/src/Base.cpp",
-  "file": "/home/victor/C++/ClientServer/MOYFNetworking/src/Base.cpp"
+  "command": "/bin/clang++-12 -I/home/victor/C++/ClientServer/MOYFNetworking/include -g -std=gnu++20 -o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPServer.cpp.o -c /home/victor/C++/ClientServer/MOYFNetworking/src/TCPServer.cpp",
+  "file": "/home/victor/C++/ClientServer/MOYFNetworking/src/TCPServer.cpp"
 },
 {
   "directory": "/home/victor/C++/ClientServer/build",
