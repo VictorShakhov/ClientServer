@@ -5,7 +5,7 @@
 namespace MOYF {
     using boost::asio::ip::tcp;
 
-    class TCPConnection {
+class TCPConnection : public std::enable_shared_from_this<TCPConnection> {
     public:
         using pointer = std::shared_ptr<TCPConnection>;
 
@@ -19,7 +19,9 @@ namespace MOYF {
             return _socket;
         }
     private:
+
         explicit TCPConnection(boost::asio::io_context& ioContext);
+
         tcp::socket _socket;
         std::string _message{"Hello, client!\n"};
     };

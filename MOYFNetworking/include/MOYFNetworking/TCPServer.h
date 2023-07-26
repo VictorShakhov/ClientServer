@@ -17,7 +17,7 @@ namespace MOYF {
         void startAccept();
 
     private:
-        IPV _ipversion;
+        IPV _ipVersion;
         int _port;
 
         boost::asio::io_context _ioContext;
