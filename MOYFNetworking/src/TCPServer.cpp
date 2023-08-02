@@ -1,7 +1,6 @@
 #include <iostream>
 
 #include "MOYFNetworking/TCPServer.h"
-#include "MOYFNetworking/TCPConnection.h"
 
 namespace MOYF {
     using boost::asio::ip::tcp;
@@ -34,6 +33,8 @@ namespace MOYF {
     {
         auto connection = TCPConnection::Create(_ioContext);
 
+        _connections.push_back(connection);
+
         _acceptor.async_accept(connection->Socket(), [connection, this](const boost::system::error_code& error){
             if(!error)
             {
@@ -42,6 +43,7 @@ namespace MOYF {
             
             startAccept();
         });
+
 
     }
 }
