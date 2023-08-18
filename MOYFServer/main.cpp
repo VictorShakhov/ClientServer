@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "MOYFNetworking/TCPServer.h"
+#include "MOYFNetworking/server/TCPServer.h"
 
 int main(int argc, char* argv[])
 {

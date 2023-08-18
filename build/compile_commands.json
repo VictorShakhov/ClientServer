@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/victor/C++/ClientServer/build",
-  "command": "/bin/clang++-12 -I/home/victor/C++/ClientServer/MOYFNetworking/include -g -std=gnu++20 -o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPConnection.cpp.o -c /home/victor/C++/ClientServer/MOYFNetworking/src/TCPConnection.cpp",
-  "file": "/home/victor/C++/ClientServer/MOYFNetworking/src/TCPConnection.cpp"
+  "command": "/bin/clang++-12 -I/home/victor/C++/ClientServer/MOYFNetworking/include -g -std=gnu++20 -o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPConnection.cpp.o -c /home/victor/C++/ClientServer/MOYFNetworking/src/server/TCPConnection.cpp",
+  "file": "/home/victor/C++/ClientServer/MOYFNetworking/src/server/TCPConnection.cpp"
 },
 {
   "directory": "/home/victor/C++/ClientServer/build",
-  "command": "/bin/clang++-12 -I/home/victor/C++/ClientServer/MOYFNetworking/include -g -std=gnu++20 -o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPServer.cpp.o -c /home/victor/C++/ClientServer/MOYFNetworking/src/TCPServer.cpp",
-  "file": "/home/victor/C++/ClientServer/MOYFNetworking/src/TCPServer.cpp"
+  "command": "/bin/clang++-12 -I/home/victor/C++/ClientServer/MOYFNetworking/include -g -std=gnu++20 -o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPServer.cpp.o -c /home/victor/C++/ClientServer/MOYFNetworking/src/server/TCPServer.cpp",
+  "file": "/home/victor/C++/ClientServer/MOYFNetworking/src/server/TCPServer.cpp"
 },
 {
   "directory": "/home/victor/C++/ClientServer/build",

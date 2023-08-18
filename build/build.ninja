@@ -77,19 +77,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_MOYFNetworking: phony || MOYFNetworking/CMakeFiles/MOYFNetworking.dir
 
-build MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPConnection.cpp.o: CXX_COMPILER__MOYFNetworking_Debug /home/victor/C++/ClientServer/MOYFNetworking/src/TCPConnection.cpp || cmake_object_order_depends_target_MOYFNetworking
-  DEP_FILE = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPConnection.cpp.o.d
+build MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPConnection.cpp.o: CXX_COMPILER__MOYFNetworking_Debug /home/victor/C++/ClientServer/MOYFNetworking/src/server/TCPConnection.cpp || cmake_object_order_depends_target_MOYFNetworking
+  DEP_FILE = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPConnection.cpp.o.d
   FLAGS = -g -std=gnu++20
   INCLUDES = -I/home/victor/C++/ClientServer/MOYFNetworking/include
   OBJECT_DIR = MOYFNetworking/CMakeFiles/MOYFNetworking.dir
-  OBJECT_FILE_DIR = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src
+  OBJECT_FILE_DIR = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server
 
-build MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPServer.cpp.o: CXX_COMPILER__MOYFNetworking_Debug /home/victor/C++/ClientServer/MOYFNetworking/src/TCPServer.cpp || cmake_object_order_depends_target_MOYFNetworking
-  DEP_FILE = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPServer.cpp.o.d
+build MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPServer.cpp.o: CXX_COMPILER__MOYFNetworking_Debug /home/victor/C++/ClientServer/MOYFNetworking/src/server/TCPServer.cpp || cmake_object_order_depends_target_MOYFNetworking
+  DEP_FILE = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPServer.cpp.o.d
   FLAGS = -g -std=gnu++20
   INCLUDES = -I/home/victor/C++/ClientServer/MOYFNetworking/include
   OBJECT_DIR = MOYFNetworking/CMakeFiles/MOYFNetworking.dir
-  OBJECT_FILE_DIR = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src
+  OBJECT_FILE_DIR = MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server
 
 
 # =============================================================================
@@ -99,7 +99,7 @@ build MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPServer.cpp.o: CXX_COMP
 #############################################
 # Link the static library MOYFNetworking/libMOYFNetworking.a
 
-build MOYFNetworking/libMOYFNetworking.a: CXX_STATIC_LIBRARY_LINKER__MOYFNetworking_Debug MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPConnection.cpp.o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/TCPServer.cpp.o
+build MOYFNetworking/libMOYFNetworking.a: CXX_STATIC_LIBRARY_LINKER__MOYFNetworking_Debug MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPConnection.cpp.o MOYFNetworking/CMakeFiles/MOYFNetworking.dir/src/server/TCPServer.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = MOYFNetworking/CMakeFiles/MOYFNetworking.dir
   POST_BUILD = :

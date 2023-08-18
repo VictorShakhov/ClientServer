@@ -2,6 +2,8 @@
 
 #include <boost/asio.hpp>
 #include <functional>
+#include <optional>
+#include <unordered_set>
 
 #include "TCPConnection.h"
 
@@ -17,14 +19,7 @@ namespace MOYF {
 
         int Run();
 
-        template<typename T>
-        void WriteToConnection(int connectionIndex, const T& message);
-
-        template<typename T>
-        using ListenCallback = std::function<void(int, const T&)>
-
-        template<typename T>
-        void RegisterListenerCallback(ListenCallback<T> callback);
+        void Broadcast(const std::string& message);
 
     private:
         void startAccept();
@@ -36,6 +31,8 @@ namespace MOYF {
         boost::asio::io_context _ioContext;
         boost::asio::ip::tcp::acceptor _acceptor;
 
-        std::vector<TCPConnection::pointer> _connections {};
+        std::optional<boost::asio::ip::tcp::socket> _socket;
+
+        std::unordered_set<TCPConnection::pointer> _connections {};
     };
 }

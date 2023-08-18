@@ -1,10 +1,10 @@
-#include "MOYFNetworking/TCPConnection.h"
+#include "MOYFNetworking/server/TCPConnection.h"
 
 #include <iostream>
 
 namespace MOYF {
 
-    TCPConnection::TCPConnection(boost::asio::io_context& ioContext) : _socket(ioContext) {
+    TCPConnection::TCPConnection(boost::asio::ip::tcp::socket&& socket) : _socket(std::move(socket)) {
 
     }
 
